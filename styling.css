@@ -1,0 +1,224 @@
+body {
+  height: 100%;
+  background-image: url("images/background.png");
+  padding: 0;
+}
+
+.orbit {
+  border-radius: 50%;
+  background-color: transparent;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  /* animation: rota 7s linear infinite;    */
+}
+
+.e {
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid black;
+  height: 18vh;
+  width: 9.625vw;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+/* @keyframes rota{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+.orbit:nth-child(2) {
+  height: 44vh;
+  width: 23.52vw;
+  left: 40.8vw;
+  ;
+  top: 25vh;
+}
+
+.orbit:nth-child(3) {
+  height: 86vh;
+  width: 45vw;
+  left: 30vw;
+  top: 4.5vh;
+}
+
+.orbit:nth-child(4) {
+  height: 28vh;
+  width: 15.05vw;
+  left: 44.9vw;
+  top: 32.4vh;
+  border: none;
+}
+
+.orbit:nth-child(2) .e:nth-child(1) {
+  bottom: 11.2vh;
+  border: none;
+}
+
+.orbit:nth-child(3) .e:nth-child(1) {
+  left: 19vw;
+  top: 18vh;
+  border: none;
+}
+
+.orbit:nth-child(3) .e:nth-child(2) {
+  position: relative;
+  top: 32vh;
+  right: 26.8vw;
+}
+
+.orbit:nth-child(3) .e:nth-child(2) {
+  border: none;
+}
+
+.orbit:nth-child(2) .e:nth-child(2) {
+  position: absolute;
+  top: 36vh;
+  right: 7vw;
+  border: none;
+}
+
+.nucleus_circle img {
+  background-image: inherit;
+  height: 90%;
+  margin-top: 5px;
+}
+
+.logo {
+  position: absolute;
+  background-image: inherit;
+  top: 0px;
+  left: 0px;
+  width: 20vw;
+  margin: 0;
+  border: none;
+  z-index: 20;
+}
+
+.btn_register {
+  cursor: pointer;
+  background-image: inherit;
+  color: rgb(248, 158, 167);
+  position: relative;
+  top: 5.5vh;
+  left: 7.7vw;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+}
+
+.btn_register:active {
+  font-size: xx-large;
+  top: 4.66vh;
+  color: rgba(248, 158, 167, 0.5);
+  text-align: justify;
+}
+
+.btn_register:hover {
+  font-size: xx-large;
+  top: 4.66vh;
+  text-align: justify;
+}
+
+.btn_logo {
+  cursor: pointer;
+}
+
+.btn_events {
+  cursor: pointer;
+  background-image: inherit;
+  color: rgb(248, 158, 167);
+  position: relative;
+  top: 6.5vh;
+  left: 0.4vw;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+  z-index: 15;
+}
+
+.btn_events:active {
+  font-size: xx-large;
+  top: 4.66vh;
+  left: -0.2vw;
+  color: rgba(248, 158, 167, 0.5);
+}
+
+.btn_events:hover {
+  font-size: xx-large;
+  top: 4.66vh;
+  left: -0.2vw;
+}
+
+.btn_dashboard {
+  cursor: pointer;
+  background-image: inherit;
+  color: rgb(248, 158, 167);
+  position: absolute;
+  top: 6.3vh;
+  left: -1vw;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+}
+
+.btn_dashboard:active {
+  font-size: xx-large;
+  top: 4.66vh;
+  left: -0.2vw;
+  color: rgba(248, 158, 167, 0.5);
+}
+
+.btn_dashboard:hover {
+  font-size: xx-large;
+  top: 4.66vh;
+  left: -2vw;
+}
+
+.btn_contact {
+  cursor: pointer;
+  background-image: inherit;
+  color: rgb(248, 158, 167);
+  position:absolute;
+  top: 8vh;
+  left: 0vw;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+  z-index: 15;
+}
+
+.btn_contact:active {
+  font-size: xx-large;
+  top: 4.66vh;
+  left: -0.1vw;
+  color: rgba(248, 158, 167, 0.5);
+}
+
+.btn_contact:hover {
+  font-size: xx-large;
+  top: 4.66vh;
+  left: -1.5vw;
+}
+
+.btn_about {
+  cursor: pointer;
+}
+
+.register {
+  border: 5px solid black;
+  background-color: yellow;
+  display: none;
+  /*to be changed*/
+  margin: auto;
+  height: 95vh;
+  width: 100%;
+  /*to be changed*/
+  opacity: 1;
+  z-index: 19;
+}
